@@ -115,7 +115,7 @@ export default function Hero() {
             </motion.h1>
 
             <motion.h2
-              className="text-[clamp(2.2rem,5vw,5rem)] font-bold mb-6"
+              className="text-[clamp(2.2rem,5vw,5rem)] font-bold leading-none mb-6"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
