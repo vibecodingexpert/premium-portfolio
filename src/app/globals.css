@@ -41,7 +41,7 @@
   --text-muted3: rgba(0, 0, 0, 0.3);
   --border-color: rgba(0, 0, 0, 0.08);
   --border-color-hover: rgba(0, 0, 0, 0.15);
-  --nav-bg: rgba(248, 249, 250, 0.9);
+  --nav-bg: rgba(248, 249, 250, 0.95);
   --overlay-bg: rgba(255, 255, 255, 0.8);
   --cursor-color: #1a1a2e;
 }
