@@ -115,7 +115,7 @@ export default function Hero() {
             </motion.h1>
 
             <motion.h2
-              className="text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-6 whitespace-nowrap min-h-[1.75rem] sm:min-h-[2.5rem] md:min-h-[3.5rem]"
+              className="text-lg sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-6 whitespace-nowrap min-h-[1.5rem] sm:min-h-[2rem] md:min-h-[2.75rem]"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
