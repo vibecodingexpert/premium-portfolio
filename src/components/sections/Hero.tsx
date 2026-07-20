@@ -106,7 +106,7 @@ export default function Hero() {
             )}
 
             <motion.h1
-              className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight"
+              className="text-[clamp(2.8rem,6vw,6rem)] font-bold mb-4 leading-tight"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
@@ -115,7 +115,7 @@ export default function Hero() {
             </motion.h1>
 
             <motion.h2
-              className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold mb-6 whitespace-nowrap min-h-[1.25rem] sm:min-h-[1.5rem] md:min-h-[1.75rem]"
+              className="text-[clamp(2.2rem,5vw,5rem)] font-bold mb-6 whitespace-nowrap min-h-[1.25rem] sm:min-h-[1.5rem] md:min-h-[1.75rem]"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
@@ -128,7 +128,7 @@ export default function Hero() {
             </motion.h2>
 
             <motion.p
-              className="text-muted text-sm md:text-base max-w-lg mx-auto lg:mx-0 mb-8 leading-relaxed"
+              className="text-muted text-[clamp(1rem,1.5vw,1.35rem)] max-w-lg mx-auto lg:mx-0 mb-8 leading-relaxed"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
